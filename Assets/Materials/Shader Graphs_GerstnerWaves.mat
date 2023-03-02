@@ -53,12 +53,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Speed1: 5
+    - Speed1: 1
     - Speed2: 3
-    - Speed3: 2
+    - Speed3: 5
     - Steepness1: 0.25
     - Steepness2: 0.2
-    - Steepness3: -0.26
+    - Steepness3: 0.3
     - Vector1_1b96df55d77f4091a34b4fb8712944af: 0.25
     - Vector1_457cbbc0012b406f956a19c4a875b493: 1.5
     - Vector1_605bc7ab2363440f83c9fbae52d4aea1: 21
@@ -72,9 +72,9 @@ Material:
     - Vector1_e1757747c878454199f9aab30c9378de: 0.5
     - Vector1_e37b232bb65a4234a20ce81aad16f8de: 62.92
     - Vector1_ece06494555e4843962f6e2dedbc7b32: 15
-    - Wavelength1: 8
-    - Wavelength2: 10
-    - Wavelength3: 20
+    - Wavelength1: 4
+    - Wavelength2: 5
+    - Wavelength3: 3
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
@@ -106,10 +106,10 @@ Material:
     - _StencilRefGBuffer: 10
     - _StencilRefMV: 40
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskGBuffer: 14
-    - _StencilWriteMaskMV: 40
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
     - _SupportDecals: 0
     - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 12
+  version: 13
   hdPluginSubTargetMaterialVersions:
     m_Keys: []
     m_Values: 
